@@ -10,8 +10,32 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false  # Ensure all matrix jobs continue even if one fails
-      matrix:
-        role: [blueteamer, bountyhunter, cracker, dos, forensic, malware, mobile, network, osint, redteamer, student, web]
+  matrix:
+    include:
+      - role: "blue"
+        job_name: "💙 Blue Teamer 💙"
+      - role: "bugbounty"
+        job_name: "🐞 Bug Bounty Hunter 🐞"
+      - role: "cracker"
+        job_name: "🍘 Cracker Specialist 🍘"
+      - role: "dos"
+        job_name: "💀 DoS Tester 💀"
+      - role: "student"
+        job_name: "🎓 Enthusiast Student 🎓"
+      - role: "forensic"
+        job_name: "🔍 Forensic Analyst 🔍"
+      - role: "malware"
+        job_name: "🦠 Malware Analyst 🦠"
+      - role: "mobile"
+        job_name: "📱 Mobile Analyst 📱"
+      - role: "network"
+        job_name: "🌐 Network Analyst 🌐"
+      - role: "osint"
+        job_name: "🕵️ OSINT Specialist 🕵️"
+      - role: "red"
+        job_name: "❤️ Red Teamer ❤️"
+      - role: "web"
+        job_name: "🕸️ Web Pentester 🕸️"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
