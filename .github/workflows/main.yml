@@ -9,6 +9,7 @@ jobs:
   build-push:
     runs-on: ubuntu-latest
     strategy:
+      fail-fast: false  # Ensure all matrix jobs continue even if one fails
       matrix:
         role: [blueteamer, bountyhunter, cracker, dos, forensic, malware, mobile, network, osint, redteamer, student, web]
     steps:
