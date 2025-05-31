@@ -5,7 +5,6 @@
 amass \
 aquatone \
 assetfinder \
-autovpn \
 aws-iam-privesc \
 bloodhound \
 brutespray \
@@ -14,7 +13,6 @@ cewl \
 chisel \
 cloud_enum \
 crackmapexec \
-crowbar \
 cupp \
 dirb \
 dirsearch \
@@ -24,7 +22,6 @@ dnsrecon \
 dnstwist \
 dnsx \
 evil-winrm \
-eyewitness \
 ffuf \
 feroxbuster \
 findomain \
@@ -50,16 +47,13 @@ nmap \
 nuclei \
 o365enum \
 osintgram \
-patator \
 photon \
 proxychains-ng \
 pwncat-caleb \
-quickrecon \
 raccoon \
 recon-ng \
 responder \
 smbmap \
-sn1per \
 snmpcheck \
 smbclient \
 smbexec \
