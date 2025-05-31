@@ -1,4 +1,4 @@
-# Cracker
+# Cracker Specialist
 
 ## Tools
 
