@@ -5,11 +5,14 @@ ENV PUSER=root
 #ENV PUID=1000
 
 RUN pacman -Syyu --noconfirm --needed \
-brutespray bruteforce-luks bruteforce-salted-openssl cewl cupp duplicut \
-fern-wifi-cracker flask-unsign gpp-decrypt hash-extender hash-identifier \
-hashid hashcat hashpump john johnny jwt-hack jwt-tool kerberoast kerbrute \
-kekeo mimikatz patator pipal pyrit pwdump rcracki-mt samdump2 \
-wpa2-halfhandshake-crack
+aesfix aeskeyfind aespipe androidpincrack asleap bkcrack bruteforce-luks \
+bruteforce-salted-openssl brutessh brutex brutespray cewl chapcrack \
+crackpkcs12 creddump crowbar cupp eapmd5pass facebash fern-wifi-cracker \
+findmyhash gpp-decrypt hash-buster hashcat hashid hash-identifier hashpump \
+johnny keimpx kerbrute ldap-brute mimikatz mimipenguin ophcrack patator \
+pemcrack phrasendrescher pip3line pkcrack pyrit rainbowcrack rcracki-mt \
+samdump2 snmp-brute spray365 sshatter sucrack thc-pptp-bruter wifibroot \
+wpforce xorsearch
 
 WORKDIR /root
 
