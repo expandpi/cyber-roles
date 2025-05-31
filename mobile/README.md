@@ -34,8 +34,6 @@ idb \
 iphoneanalyzer \
 jeb-android \
 jeb-arm \
-jeb-intel \
-jeb-mips \
 lief \
 malwareanalyser \
 mobsf \
