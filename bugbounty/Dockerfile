@@ -5,7 +5,7 @@ ENV PUSER=root
 #ENV PUID=1000
 
 RUN pacman -Syyu --noconfirm --needed \
-altdns arjun assetfinder awsbucketdump burpsuite caido-desktop changeme chaos-client commentor commix \
+altdns arjun amass assetfinder awsbucketdump burpsuite caido-desktop changeme chaos-client commentor commix \
 corsy corstest crlfuzz crunch dalfox depix dirb dirbuster-ng dirsearch dirstalk dnscan docem domained dotdotpwn \
 dvcs-ripper eyewitness exploitdb extended-ssrf-search fdsploit feroxbuster ffuf filebuster findomain \
 findsploit gau git-dumper gitgraber gitleaks gitminer gobuster gospider graphqlmap hakrawler hakrevdns \
